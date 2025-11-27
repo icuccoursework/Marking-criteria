@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICUC | Website Audit Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #0b6623;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        header img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: white;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        h2 {
+            color: #0b6623;
+        }
+
+        .container {
+            margin: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .audit-list {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: left;
+            width: 100%;
+        }
+
+        .audit-item {
+            margin-bottom: 18px;
+            padding: 15px;
+            border-left: 6px solid #0b6623;
+            background: #fdfdfd;
+            border-radius: 6px;
+        }
+
+        .audit-item h3 {
+            margin: 0;
+            color: #0b6623;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #0b6623;
+            color: white;
+        }
+
+        .back-btn {
+            margin-top: 30px;
+            background-color: #0b6623;
+            padding: 12px 25px;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        .back-btn:hover {
+            background-color: #094d1a;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="ICUC Logo">
+        <h1>Islamic Call University College (ICUC)</h1>
+    </header>
+
+    <div class="container">
+        <h2>15–Point Website Audit Guide</h2>
+        <p style="max-width:700px;">
+            This guide helps Web Design & Development students at ICUC evaluate websites 
+            professionally using a clear scoring system. Each point below carries 2 marks for a total of 30 marks.
+        </p>
+
+        <div class="audit-list">
+
+            <div class="audit-item">
+                <h3>1. Header & Branding</h3>
+                <p>Check whether the website has a clear identity — logo, site title, tagline, and consistent university branding.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>2. Navigation Clarity</h3>
+                <p>Menus should be simple, easy to find, and provide logical paths for users.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>3. Visual Design & Aesthetic</h3>
+                <p>Evaluate overall beauty of the site — spacing, alignment, colors, and graphical balance.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>4. Typography & Readability</h3>
+                <p>Text should be readable, well-sized, and consistent across pages.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>5. Colour Harmony</h3>
+                <p>Colours must blend well, match the brand, and not strain the eyes. ICUC green (#0b6623) should stand out.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>6. Responsiveness (Mobile/Tablet)</h3>
+                <p>Check whether the design adapts to different screens without breaking layout.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>7. Page Layout Structure</h3>
+                <p>A good layout should have clear sections, balanced spacing, and a logical flow.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>8. Content Depth</h3>
+                <p>Pages should contain meaningful information, not shallow text or filler content.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>9. Content Accuracy & Clarity</h3>
+                <p>Ensure correct grammar, correct information, and clear explanations tailored to the audience.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>10. Multimedia Use (Images, Videos)</h3>
+                <p>Are multimedia elements relevant, high quality, optimized, and used professionally?</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>11. Functionality & Interactivity</h3>
+                <p>Check buttons, links, forms, animations, and any interactive elements for proper functionality.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>12. Loading Speed</h3>
+                <p>Fast-loading websites improve user experience. Evaluate image sizes, scripts, and optimization.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>13. Professionalism & Trustworthiness</h3>
+                <p>The website should reflect a credible institution through tone, accuracy, and presentation.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>14. Consistency Across Pages</h3>
+                <p>Check whether all pages maintain the same colors, fonts, button styles, and structure.</p>
+            </div>
+
+            <div class="audit-item">
+                <h3>15. Overall User Experience (UX)</h3>
+                <p>Evaluate how enjoyable and easy the site is to use. UX should consider emotions and convenience.</p>
+            </div>
+
+        </div>
+
+        <a href="index.html" class="back-btn">Back to Group Page</a>
+    </div>
+
+    <footer>
+        © Islamic Call University College — Website Design & Development | Group E
+    </footer>
+
+</body>
+</html>
